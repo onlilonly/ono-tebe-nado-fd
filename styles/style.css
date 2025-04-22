@@ -38,18 +38,24 @@
 }
 
 .cover {
-  /* position: relative; */
+  position: relative;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: -1;
 }
 
 .overlay {
-    /* position: absolute; */
-    z-index: 1;
-    background-color: rgba(0, 0, 1, 0.6);
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
   }
-  
+
+.for__using__overlay {
+  position: relative;
+  z-index: 1;
+}
+
 .cover__title {
   padding: 165px 50px 106px;
   color: #FFFFFF;
