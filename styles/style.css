@@ -221,5 +221,38 @@ main {
 }
 
 .footer {
-  min-height: 180px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 0 50px 82px;
+}
+
+.footer__address {
+  justify-self: start;
+}
+
+.footer__menu-list {
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer__menu-list-item {
+  list-style: none;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  justify-self: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
