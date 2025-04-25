@@ -54,11 +54,11 @@
 
 .cover {
   position: relative;
+  z-index: 0;
   padding: 165px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 0;
 }
 
 .overlay {
@@ -150,14 +150,14 @@
 }
 
 .card {
+  position: relative;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 100%;
   padding: 48px 40px;
-  position: relative;
-  z-index: 0;
 }
 
 .card_type_film {
